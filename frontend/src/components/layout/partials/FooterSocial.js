@@ -1,36 +1,37 @@
 import React from 'react';
 import classNames from 'classnames';
-import ReactDOM from 'react-dom';
-import { SocialIcon } from 'react-social-icons';
+import {SocialIcon} from 'react-social-icons';
 
 const FooterSocial = ({
-  className,
-  ...props
-}) => {
+                          className,
+                          ...props
+                      }) => {
 
-  const classes = classNames(
-    'footer-social',
-    className
-  );
+    const classes = classNames(
+        'footer-social',
+        className
+    );
 
-  return (
-    <div
-      {...props}
-      className={classes}
-    >
-      <ul className="list-reset">
-        <li>
-          <SocialIcon url="https://www.linkedin.com/in/ricardobolio/"/>
-        </li>
-        <li>
-          <SocialIcon url="https://twitter.com/rbolio"/>
-        </li>
-        <li>
-          <SocialIcon url="https://www.instagram.com/rbolio/"/>
-        </li>
-      </ul>
-    </div>
-  );
+    return (
+        <div
+            {...props}
+            className={classes}
+        >
+            <ul className="list-reset">
+                <li>
+                    <SocialIcon url="https://www.linkedin.com/in/ricardobolio/" bgColor="#f35d8b"
+                                style={{height: 25, width: 25}}/>
+                </li>
+                <li>
+                    <SocialIcon url="https://twitter.com/rbolio" bgColor="#f35d8b" style={{height: 25, width: 25}}/>
+                </li>
+                <li>
+                    <SocialIcon url="https://www.instagram.com/rbolio/" bgColor="#f35d8b"
+                                style={{height: 25, width: 25}}/>
+                </li>
+            </ul>
+        </div>
+    );
 }
 
 export default FooterSocial;
