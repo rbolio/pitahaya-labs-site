@@ -9,7 +9,6 @@ const propTypes = {
   topOuterDivider: PropTypes.bool,
   topDivider: PropTypes.bool
 }
-
 const defaultProps = {
   topOuterDivider: false,
   topDivider: false
@@ -45,7 +44,7 @@ const Footer = ({
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
-            <div className="footer-copyright">Made by <a href="https://cruip.com">Cruip</a>. All right reserved</div>
+            <div className="footer-copyright"><small>&copy; Copyright 2021, Pitahaya Labs</small></div>
           </div>
         </div>
       </div>
