@@ -15,8 +15,16 @@ https://www.pitahaya-labs.com/
 
 ## Where we're going
 
-Same website, but with subdomains:
+Same website, but with subdomains!
+
+required?
+    * mysql
+    * 
 
 blog.pitahaya-lab.com: 
     deploy chyrplite   https://chyrplite.net/wiki/
+
+notes.pitahaya-lab.com:
+    https://usememos.com/
+
 
